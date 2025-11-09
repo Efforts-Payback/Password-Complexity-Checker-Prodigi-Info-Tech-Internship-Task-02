@@ -56,29 +56,29 @@ python password_checker.py
 
 ### 🧩 Requirements
 
-• Python 3.8 or higher
-• requests (install via pip)
-• tkinter (included in most Python installations)
+• Python 3.8 or higher <br>
+• requests (install via pip) <br>
+• tkinter (included in most Python installations) <br>
 
 ### 🔐 How the Breach Check Works
 
-• This app uses the Have I Been Pwned API safely:
-• Only the first 5 characters of your password’s SHA-1 hash are sent to the API.
-• The full hash is compared locally, ensuring your full password never leaves your computer.
-• If your hash appears in the database results, your password is considered compromised.
+This app uses the Have I Been Pwned API safely:
+• Only the first 5 characters of your password’s SHA-1 hash are sent to the API. <br>
+• The full hash is compared locally, ensuring your full password never leaves your computer. <br>
+• If your hash appears in the database results, your password is considered compromised. <br>
 
 ### 🧠 Security Notes
 
-✅ Even strong passwords can eventually be cracked through brute force, but such attacks are rare in real-world scenarios.
-✅ Use unique passwords for each site, enable 2FA, and consider using a password manager.
-✅ The breach lookup requires an internet connection; strength checks work offline.
+✅ Even strong passwords can eventually be cracked through brute force, but such attacks are rare in real-world scenarios. <br>
+✅ Use unique passwords for each site, enable 2FA, and consider using a password manager. <br>
+✅ The breach lookup requires an internet connection; strength checks work offline. <br>
 
 ### 🧰 Tech Stack
 
--- Language: Python
--- GUI: Tkinter
--- API: Have I Been Pwned
--- Libraries: requests, hashlib, re
+-- Language: Python <br>
+-- GUI: Tkinter <br>
+-- API: Have I Been Pwned <br>
+-- Libraries: requests, hashlib, re <br>
 
 ### 🧾 License
 This project is open-source and free to use for educational purposes.
