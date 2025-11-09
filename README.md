@@ -62,7 +62,7 @@ python password_checker.py
 
 ### 🔐 How the Breach Check Works
 
-This app uses the Have I Been Pwned API safely:
+This app uses the Have I Been Pwned API safely: <br>
 • Only the first 5 characters of your password’s SHA-1 hash are sent to the API. <br>
 • The full hash is compared locally, ensuring your full password never leaves your computer. <br>
 • If your hash appears in the database results, your password is considered compromised. <br>
